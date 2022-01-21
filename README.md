@@ -58,7 +58,7 @@ Calling a undefined function should yield a runtime error.
 
 ### Syscalls
 When the syscall instruction § is invoked it will call the syscall with the ID in the A register followed by the Arguments 6 for the registers B through G.
-When the syscall expects a pointer to a struct, you can pass the Address of a cell on the Tape, which will then be treated as a pointer. If its meant to be a string it will just read the characters one cell at a time starting from the specified one. If there is an explicit count it will stop there otherwise it will go to the next cell containing 0.
+When the syscall expects a pointer to a struct, you can pass the Address of a cell on the Tape, which will then be treated as a pointer. If it's meant to be a string it will just read the characters one cell at a time starting from the specified one. If there is an explicit count it will stop there otherwise it will go to the next cell containing 0.
 The way structs will be handled will be defined later.
 
 ## Contributions
