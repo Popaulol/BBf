@@ -1,6 +1,6 @@
 # BBf (Better Brainfuck)
 
-BBf is a Esotheric Programming Language created in 2022 by Staubfinger aka. Staubfcoding aka. Popaulol.
+BBf is a Esotheric Programming Language created in 2022 by Staubfinger aka. Staubcoding aka. Popaulol.
 It is meant to be a more powerful version of [brainfuck](https://esolangs.org/wiki/Brainfuck) with support for arbritary syscalls and more.
 Its name is the acronym for `Better Brainfuck`.
 It *should* run any valid Brainfuck Program, that doesn't contain any of the characters used by the language for its own pourpuses.
