@@ -52,7 +52,7 @@ They are named ABCDEFG.
 ### Functions
 Functions are a construct made for code reuse but since this is meant to be an esolang though a not so hard one, functions come with a bit of a caveat.
 A Function is a collection of instuctions inside curly braces. Every function gets a numeric ID starting with 0, depending on the order they are defined in.
-When local functions are created they will override the ID's starting at 0 again from the outer function scope but you are still able to access functions on the global level using the = and % instructions.
+When local functions are created they will override the ID's starting at 0 again from the outer function scope but you are still able to access functions on the global level using the ? and % instructions.
 If a empty function {} is written, it will increment the counter of current functions but won't override the function at the current value.
 Calling A undefined function should yield a runtime error.
 
