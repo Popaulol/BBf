@@ -9,7 +9,7 @@ It *should* run any valid Brainfuck Program, that doesn't contain any of the cha
 **DISCLAIMER: This is by no means final**
 
 The Instruction set is the same as regular brainfuck with a multitude of added features and commands.
-In Addition to the standard bf Tape, this language adds 6 registers, ABCDEF, used for the syscall command and for a bit simpler Storage.
+In Addition to the standard bf Tape, this language adds 6 registers, ABCDEFG, used for the syscall command and for a bit simpler Storage.
 They are named ABCDEFG.
 
 | instruction | available in standard brainfuck | Explenation 
