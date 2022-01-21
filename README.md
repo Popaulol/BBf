@@ -14,40 +14,40 @@ They are named ABCDEFG.
 
 | instruction | available in standard brainfuck | Explenation 
 |-------------|---------------------------------|-------------
-| >           | :heavy_check_mark:              | Move the pointer to the right
-| <           | :heavy_check_mark:	            | Move the pointer to the left
-| +           | :heavy_check_mark:	            | Increment the memory cell at the pointer
-| -           | :heavy_check_mark:	            | Decrement the memory cell at the pointer
-| .           | :heavy_check_mark:	            | Output the character signified by the cell at the pointer
-| ,           | :heavy_check_mark:	            | Input a character and store it in the cell at the pointer
-| [           | :heavy_check_mark:	            | Jump past the matching ] if the cell at the pointer is 0
-| ]           | :heavy_check_mark: 	            | Jump back to the matching [ if the cell at the pointer is nonzero
-| #           | :white_check_mark:              | Output the value of the cell at the pointer as a Base 16 Integer
-| A           | :white_check_mark:              | Put the value inside the cell at the pointer into register A
-| B           | :white_check_mark:              | Put the value inside the cell at the pointer into register B
-| C           | :white_check_mark:              | Put the value inside the cell at the pointer into register C
-| D           | :white_check_mark:              | Put the value inside the cell at the pointer into register D
-| E           | :white_check_mark:              | Put the value inside the cell at the pointer into register E
-| F           | :white_check_mark:              | Put the value inside the cell at the pointer into register F
-| G           | :white_check_mark:              | Put the value inside the cell at the pointer into register G
-| a           | :white_check_mark:              | Load the value from register A into the cell at the pointer
-| b           | :white_check_mark:              | Load the value from register b into the cell at the pointer
-| c           | :white_check_mark:              | Load the value from register c into the cell at the pointer
-| d           | :white_check_mark:              | Load the value from register d into the cell at the pointer
-| e           | :white_check_mark:              | Load the value from register e into the cell at the pointer
-| f           | :white_check_mark:              | Load the value from register f into the cell at the pointer
-| g           | :white_check_mark:              | Put the value inside the cell at the pointer into register G
-| \|          | :white_check_mark:              | Put the Position of the pointer ito register A
-| ^           | :white_check_mark:              | Move the pointer to the Cell indicated by register A
-| (           | :white_check_mark:	            | Jump past the matching ) if the cell in register A is 0
-| )           | :white_check_mark: 	            | Jump back to the matching ( if the cell in register A is nonzero
-| {           | :white_check_mark:              | Starts a function (function are explained a bit later in this Document)
-| }           | :white_check_mark:              | Ends a function (function are explained a bit later in this Document)
-| !           | :white_check_mark:              | Calls the function with the ID represented in the cell at the pointer by using local lookup
-| ?           | :white_check_mark:              | Calls the function with the ID represented in the cell at the pointer by using global lookup
-| &           | :white_check_mark:              | Calls the function with the ID represented in register A by using local lookup
-| %           | :white_check_mark:              | Calls the function with the ID represented in register A by using global lookup
-| §           | :white_check_mark:              | Invokes a (linux/unix) syscall with the ID represented by the cell at the pointer with the six arguments being the registers A through F
+| >           | &#9746;                         | Move the pointer to the right
+| <           | &#9746;          	            | Move the pointer to the left
+| +           | &#9746;          	            | Increment the memory cell at the pointer
+| -           | &#9746;          	            | Decrement the memory cell at the pointer
+| .           | &#9746;          	            | Output the character signified by the cell at the pointer
+| ,           | &#9746;          	            | Input a character and store it in the cell at the pointer
+| [           | &#9746;          	            | Jump past the matching ] if the cell at the pointer is 0
+| ]           | &#9746;           	            | Jump back to the matching [ if the cell at the pointer is nonzero
+| #           | &#9744;                         | Output the value of the cell at the pointer as a Base 16 Integer
+| A           | &#9744;                         | Put the value inside the cell at the pointer into register A
+| B           | &#9744;                         | Put the value inside the cell at the pointer into register B
+| C           | &#9744;                         | Put the value inside the cell at the pointer into register C
+| D           | &#9744;                         | Put the value inside the cell at the pointer into register D
+| E           | &#9744;                         | Put the value inside the cell at the pointer into register E
+| F           | &#9744;                         | Put the value inside the cell at the pointer into register F
+| G           | &#9744;                         | Put the value inside the cell at the pointer into register G
+| a           | &#9744;                         | Load the value from register A into the cell at the pointer
+| b           | &#9744;                         | Load the value from register b into the cell at the pointer
+| c           | &#9744;                         | Load the value from register c into the cell at the pointer
+| d           | &#9744;                         | Load the value from register d into the cell at the pointer
+| e           | &#9744;                         | Load the value from register e into the cell at the pointer
+| f           | &#9744;                         | Load the value from register f into the cell at the pointer
+| g           | &#9744;                         | Put the value inside the cell at the pointer into register G
+| \|          | &#9744;                         | Put the Position of the pointer ito register A
+| ^           | &#9744;                         | Move the pointer to the Cell indicated by register A
+| (           | &#9744;              	        | Jump past the matching ) if the cell in register A is 0
+| )           | &#9744;              	        | Jump back to the matching ( if the cell in register A is nonzero
+| {           | &#9744;                         | Starts a function (function are explained a bit later in this Document)
+| }           | &#9744;                         | Ends a function (function are explained a bit later in this Document)
+| !           | &#9744;                         | Calls the function with the ID represented in the cell at the pointer by using local lookup
+| ?           | &#9744;                         | Calls the function with the ID represented in the cell at the pointer by using global lookup
+| &           | &#9744;                         | Calls the function with the ID represented in register A by using local lookup
+| %           | &#9744;                         | Calls the function with the ID represented in register A by using global lookup
+| §           | &#9744;                         | Invokes a (linux/unix) syscall with the ID represented by the cell at the pointer with the six arguments being the registers A through F
 
 ### Functions
 Functions are a construct made for code reuse but since this is meant to be an esolang though a not so hard one, functions come with a bit of a caveat.
