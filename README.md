@@ -5,7 +5,7 @@ It is meant to be a more powerful version of [brainfuck](https://esolangs.org/wi
 Its name is the acronym for `Better Brainfuck`.
 It *should* run any valid Brainfuck Program, that doesn't contain any of the characters used by the language for its own pourpuses.
 
-## Instruction Set´
+## Instruction Set
 **DISCLAIMER: This is by no means final**
 
 The Instruction set is the same as regular brainfuck with a multitude of added features and commands.
