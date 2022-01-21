@@ -37,7 +37,7 @@ They are named ABCDEFG.
 | e           | &#9744;                         | Load the value from register e into the cell at the pointer
 | f           | &#9744;                         | Load the value from register f into the cell at the pointer
 | g           | &#9744;                         | Put the value inside the cell at the pointer into register G
-| \|          | &#9744;                         | Put the Position of the pointer ito register A
+| \|          | &#9744;                         | Put the Position of the pointer into register A
 | ^           | &#9744;                         | Move the pointer to the Cell indicated by register A
 | (           | &#9744;              	        | Jump past the matching ) if the cell in register A is 0
 | )           | &#9744;              	        | Jump back to the matching ( if the cell in register A is nonzero
