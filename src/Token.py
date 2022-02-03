@@ -1,7 +1,7 @@
 from enum import Enum, auto
 
 
-class Token(Enum):
+class TokenType(Enum):
     left_angle_brace = auto()  # <
     right_angle_brace = auto()  # >
     plus = auto()  # +
