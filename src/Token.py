@@ -40,3 +40,5 @@ class TokenType(Enum):
     percent = auto()  # %
     ampersand = auto()  # &
     paragraph = auto()  # §
+
+    comment = auto()
