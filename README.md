@@ -47,7 +47,7 @@ They are named ABCDEFG.
 | ?           | &#9744;                         | Calls the function with the ID represented in the cell at the pointer by using global lookup
 | ~           | &#9744;                         | Calls the function with the ID represented in register A by using local lookup
 | %           | &#9744;                         | Calls the function with the ID represented in register A by using global lookup
-| §           | &#9744;                         | Invokes a (linux/unix) syscall with the ID represented by the cell at the pointer with the six arguments being the registers A through F
+| $           | &#9744;                         | Invokes a (linux/unix) syscall with the ID represented by the cell at the pointer with the six arguments being the registers A through F
 | &           | &#9744;                         | Store a pointer to the Cell currently pointed at bei the Pointer into A
 | *           | &#9744;                         | Derefence the pointer stored in A onto the current place on the Tape
 
